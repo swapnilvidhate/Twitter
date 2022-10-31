@@ -50,6 +50,7 @@ export default ({ changeToSignup }) => {
   };
 
   return (
+    <>
     <Form center onSubmit={handleLogin}>
       <Input
         text="Email"
@@ -72,5 +73,6 @@ export default ({ changeToSignup }) => {
         Signup
       </Button>
     </Form>
+</>
   );
 };
